@@ -1,0 +1,52 @@
+/* Shared content-page theme */
+@import url("main.css");
+.container{max-width:1240px}
+
+
+/* FIXED WIDTH AND CENTERED WEBSITE - ALL PAGES */
+
+html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1100px;
+    max-width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply box sizing to all elements */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Center page content */
+
+.container {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Navbar full width inside website */
+
+.navbar {
+    width: 100%;
+}
+
+/* Responsive layout for mobile */
+
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+        padding: 0;
+    }
+}
